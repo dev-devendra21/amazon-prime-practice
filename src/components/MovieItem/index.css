@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.popup-content {
+  width: 550px;
+}
+
+.trigger-button {
+  background-color: transparent;
+  outline: none;
+  border-width: 0px;
+}
+
+.movie-img {
+  width: 220px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.modal {
+  font-size: 12px;
+  position: relative;
+}
+.modal > .content {
+  padding: 10px 5px;
+}
+
+.modal > .close {
+  cursor: pointer;
+  position: relative;
+  left: 95%;
+  border-width: 0px;
+  background-color: transparent;
+  outline: none;
+}
